@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;usd-inr-conversion-jsp&apos;" deleteContents="false" description="Delete resource &apos;usd-inr-conversion-jsp&apos;" element1="/usd-inr-conversion-jsp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1554174847910"/>
+</session>

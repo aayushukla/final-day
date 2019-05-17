@@ -1,0 +1,5 @@
+127.0.0.1 - - [15/Apr/2019:18:03:16 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [15/Apr/2019:18:03:17 +0530] "GET /bank-app-web-spring-mvc/ HTTP/1.1" 404 1102
+0:0:0:0:0:0:0:1 - - [15/Apr/2019:18:03:25 +0530] "GET /bank-app-web-spring-mvc/app/mumbai/ HTTP/1.1" 200 2331
+0:0:0:0:0:0:0:1 - - [15/Apr/2019:18:03:25 +0530] "GET /bank-app-web-spring-mvc/app/mumbai/css/style.css HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [15/Apr/2019:18:03:25 +0530] "GET /bank-app-web-spring-mvc/app/mumbai/images/wp.jpg HTTP/1.1" 404 1047

@@ -1,0 +1,86 @@
+1.What is an interface?
+
+-- Interface contains the behaviours that should be implemented by the child classes. Also every property defined in interface is by default constant(public static final) & behaviours are public abstract unless specified default or static.
+
+2. Why do we need interfaces?
+
+-- To achive abstraction, flexibility and loose coupling.
+
+3. Where do we use interface?
+
+-- Where there are same behaviours in child classes which do not necessarily have a class relationship between them. 
+
+4. How to use interface?
+
+--
+
+public interface Bouncable {
+
+	public void shape();
+	
+	public default void bounce()
+	{
+		System.out.println("bouncing");
+	}
+	
+	public default void roll()
+	{
+		System.out.println("rolling");
+	}
+	
+	
+}
+
+public class Ball implements Bouncable {
+
+	@Override
+	public void shape() {
+		System.out.println("Spherical shape");
+	
+	}
+	
+	public void display()
+	{
+		System.out.println("Ball has");
+		shape();
+		System.out.println("properties are ");
+		roll();
+		bounce();
+	}
+
+}
+
+public class Tyre implements Bouncable {
+
+	@Override
+	public void shape() {
+		System.out.println("Circular shape");
+	}
+	
+	public void display()
+	{
+		System.out.println("Tyre has");
+		shape();
+		System.out.println("properties are ");
+		roll();
+		bounce();
+	}
+
+}
+
+public class TestBouncable {
+
+	public static void main(String[] args) {
+		
+	Ball b=new Ball();
+		b.display();
+		Tyre r=new  Tyre();
+		r.display();
+		
+		
+	}
+	
+}
+
+
+

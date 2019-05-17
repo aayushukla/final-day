@@ -1,0 +1,52 @@
+package com.capgemini.fooddeliveryapplication.entity;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="order")
+public class Dish {
+
+	@Id
+	private int _id;
+	private String dishName;
+	private int price;
+	private String imgUrl;
+	public Dish() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Dish(int _id, String dishName, int price, String imgUrl) {
+		super();
+		this._id = _id;
+		this.dishName = dishName;
+		this.price = price;
+		this.imgUrl = imgUrl;
+	}
+	public int get_id() {
+		return _id;
+	}
+	public void set_id(int _id) {
+		this._id = _id;
+	}
+	public String getDishName() {
+		return dishName;
+	}
+	public void setDishName(String dishName) {
+		this.dishName = dishName;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	public String getImgUrl() {
+		return imgUrl;
+	}
+	public void setImgUrl(String imgUrl) {
+		this.imgUrl = imgUrl;
+	}
+
+	
+
+}

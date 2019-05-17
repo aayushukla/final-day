@@ -1,0 +1,17 @@
+package com.capgemini.fooddeliveryapplication.entity;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="order")
+public class Dish {
+
+	@Id
+	private int _id;
+	private String dishName;
+	private int price;
+	private String imgUrl;
+
+	
+
+}

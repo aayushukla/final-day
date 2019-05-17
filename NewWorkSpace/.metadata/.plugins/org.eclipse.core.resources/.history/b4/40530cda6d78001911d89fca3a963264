@@ -1,0 +1,63 @@
+package com.foodapp.order.entity;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@Document
+//@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+public class restaurantAccept {
+
+	@Id
+	private int _Id;
+	private String dishName;
+	private double price;
+	private String status;
+
+	public restaurantAccept(int _Id, String dishName, double price, String status) {
+		super();
+		this._Id = _Id;
+		this.dishName = dishName;
+		this.price = price;
+		this.status = status;
+	}
+
+	public restaurantAccept() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public int get_Id() {
+		return _Id;
+	}
+
+	public void set_Id(int _Id) {
+		this._Id = _Id;
+	}
+
+	public String getDishName() {
+		return dishName;
+	}
+
+	public void setDishName(String dishName) {
+		this.dishName = dishName;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+}

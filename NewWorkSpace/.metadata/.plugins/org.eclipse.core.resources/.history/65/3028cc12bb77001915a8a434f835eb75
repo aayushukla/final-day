@@ -1,0 +1,7 @@
+package com.capgemini.restaurantAcceptOrder.service;
+
+
+public interface RestaurantService {
+
+	
+}

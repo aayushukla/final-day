@@ -1,0 +1,66 @@
+class Date {
+
+	private int date;
+	private int month;
+	private int year;
+
+	public Date(int date,int month,int year)
+	{
+		this.date=date;
+		this.month=month;
+		this.year=year;
+	}
+
+	public String toString(Date d)
+	{
+		String dateInString=Integer.toString(d.date)+Integer.toString(d.month)+Integer.toString(d.year);
+		return dateInString;
+		
+	}
+
+	
+}
+
+
+class DateTest {
+
+	public static void main(String[] args)
+	{
+		Date obj=new Date(06,10,1996);
+		obj.toString();
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

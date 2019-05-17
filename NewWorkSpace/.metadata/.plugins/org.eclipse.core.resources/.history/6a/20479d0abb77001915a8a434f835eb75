@@ -1,0 +1,5 @@
+package com.capgemini.restaurantAcceptOrder.service;
+
+public class RestaurantServiceImpl implements RestaurantService {
+
+}

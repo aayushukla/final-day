@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="movie-catalog-eureka-server"/>
+<aop-project name="deliveryboy"/>
+<aop-project name="order"/>
+<aop-project name="restautant-home-microservice"/>
+<aop-project name="restaurant-editmenu-microservice"/>
+<aop-project name="transaction-service"/>
+<aop-project name="demo"/>
+<aop-project name="userdata"/>
+<aop-project name="food-delivery-application"/>
+<aop-project name="springboottesting"/>
+<aop-project name="restaurantInfo"/>
+<aop-project name="person"/>
+<aop-project name="movie-info-service"/>
+<aop-project name="movie-rating-service"/>
+<aop-project name="account-service"/>
+<aop-project name="restaurantAcceptOrder"/>
+<aop-project name="exchange-value"/>
+<aop-project name="movie-catalog-service"/>
+<aop-project name="manytomany"/>
+</aop-reference-model>

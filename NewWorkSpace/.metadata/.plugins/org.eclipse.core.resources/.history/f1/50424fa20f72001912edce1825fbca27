@@ -1,0 +1,13 @@
+package com.capgemini.restaurant.service;
+
+import com.capgemini.restaurant.entity.RestaurantHome;
+
+public class RestaurantHomeServiceImpl implements RestaurantHomeService {
+
+	@Override
+	public RestaurantHome findAllOrders() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

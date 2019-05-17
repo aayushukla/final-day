@@ -1,0 +1,6 @@
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=restaurantOrder
+#spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+server.port=8011
+spring.main.allow-bean-definition-overriding=true

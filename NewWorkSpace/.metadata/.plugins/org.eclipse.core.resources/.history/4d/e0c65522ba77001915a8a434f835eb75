@@ -1,0 +1,8 @@
+package com.capgemini.restaurantAcceptOrder.dao;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.capgemini.restaurantAcceptOrder.entity.RestaurantAccept;
+
+public interface RestaurantDAO extends MongoRepository<RestaurantAccept, Integer> {
+
+}

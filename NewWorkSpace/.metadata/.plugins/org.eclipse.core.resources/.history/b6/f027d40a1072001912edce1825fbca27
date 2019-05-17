@@ -1,0 +1,17 @@
+package com.capgemini.restaurant.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.capgemini.restaurant.entity.RestaurantHome;
+
+public class RestaurantHomeServiceImpl implements RestaurantHomeService {
+
+	
+	@Autowired
+	private RestaurantHomeDAO dao;
+	@Override
+	public RestaurantHome findAllOrders() {
+		
+	}
+
+}

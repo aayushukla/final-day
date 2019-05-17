@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Aayush\CoreJava\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3748082734.index
+4005555507.index
+604960225.index
+729710141.index
+1611043484.index
+3724350373.index
+2393710562.index
+2388237978.index

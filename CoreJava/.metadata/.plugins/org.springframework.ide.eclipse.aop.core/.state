@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="person-spring-mvc"/>
+<aop-project name="bank-app-web-spring-mvc"/>
+<aop-project name="bankapp-spring-mvc"/>
+<aop-project name="PersonSpringM"/>
+</aop-reference-model>
